@@ -1,0 +1,90 @@
+
+body{
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+   
+}
+#head{
+    text-align: center;
+    margin-bottom: 2em;
+}
+#la{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    
+}
+.big{
+    background-color: #fbc6cf;
+    max-width: 400px;
+    padding: 20px;
+    border-radius: 20px;
+    
+
+}
+#imgwala{
+    text-align: center;
+}
+#imgwala img{
+    margin-bottom: -12px;
+    margin-top: 3rem;
+}
+#date{
+    margin-top: -2em;
+}
+#extradata{
+    display: flex;
+    justify-content: space-between;
+    margin-top: 2em;
+}
+#weath{
+    text-align: center;
+    font-size: 10px;
+}
+.humid img{
+    width: 2em;
+    height: 2em;
+}
+.wind img{
+    width: 2.2em;
+    height: 2.2em;
+}
+#city{
+   
+    padding: 10px;
+    border-radius: 20px;
+    border: 2px solid #F3668F;
+}
+#city::placeholder{
+    color: pink;
+    font-weight: bold;
+}
+#city:focus{
+    outline: none;
+}
+#weather{
+    display: none;
+}
+#search{
+    margin-top: 1em;
+    padding: 10px;
+    border-radius: 20px;
+    border: 2px solid #F3668F;
+    background-color: #F3668F;
+    color: white;
+    font-weight: bold;
+    cursor: pointer;
+}
+
+.humid, .wind{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+#humidity,#clouds{
+    margin-top: -2em;
+    font-size: 10px;
+    max-width: 20px;
+    margin-left: 2em;
+}
